@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community App Home Page</title>
+    <!-- Include Tailwind CSS stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="container-fluid mx-auto lg:px-20 bg-blue-500">
+        <nav class="border-gray-200  max-w-screen-xl px-4 py-2 mx-auto sm:px-16">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="./index.html" class="flex items-center">
+                    <img src="" class="h-8 mr-3" alt="VoilaCo Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">VoilaCode</span>
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-blue-500 text-white md:flex-row md:space-x-8 md:mt-0 md:border-0">
+                        <li>
+                            <a href="./index.html" class="block py-2 pl-3 pr-4 text-white rounded md:p-0">Home</a>
+                        </li>
+                        <li>
+                            <a href="./About.html" class="block py-2 pl-3 pr-4 text-white rounded md:p-0">About</a>
+                        </li>
+                        <li class="group relative">
+                            <a href="#" class="block py-2 pl-3 pr-4 text-white rounded md:p-0">Services</a>
+                            <ul class="absolute hidden mt-2 space-y-2 bg-blue-500 text-white rounded-md group-hover:block">
+                                <li><a href="./webdev.html" class="block px-4 py-2">Web_Development</a></li>
+                                <li><a href="./mobdev.html" class="block px-4 py-2">Mobile_Development</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="group relative">
+                            <a href="#" class="block py-2 pl-3 pr-4 text-white rounded md:p-0">Products</a>
+                            <ul class="absolute hidden mt-2 space-y-2 bg-blue-500 text-white rounded-md group-hover:block">
+                                <li><a href="#" class="block px-4 py-2">Community_App</a></li>
+                                <li><a href="#" class="block px-4 py-2">Recruitment_App</a></li>
+                                <li><a href="#" class="block px-4 py-2">Website_App</a></li>
+                                <li><a href="./learningapp.html" class="block px-4 py-2">Learning_App</a></li>
+                               
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./Contact.html" class="block py-2 pl-3 pr-4 text-white rounded md:p-0">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+   
+    
+<section class="container-fluid lg:px-20  lg:py-12 p-5 bg-blue-50">
+    <div class=" mx-auto  max-w-screen-xl">
+        <div class="grid lg:grid-cols-8 md:grid-cols-2 grid-cols-1 lg:px-10 ">
+         <div class="flex flex-col justify-center col-span-5">
+            <h1 class=" md:text-4xl text-red-900  font-bold sm:text-3xl text-2xl">Welcome to Our Community!</h1>
+           <p class="text-slate-500 text-lg font-sans  mt-3">  We're delighted to have you here! Our community is a vibrant and welcoming space where people from all walks of life come together to connect, learn, and share their passions. Whether you're a seasoned expert or just starting on your journey, there's a place for you here.</p>
+            <div class="space-x-4 mt-8">
+               
+                <button type="button" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-base  shadow-lg px-5 py-3 text-center mr-2 mb-2">Sign in</button>
+            </div>
+        </div>  
+        <div class="col-span-3">
+            <img src="../asset/community.png"  alt="staff image" class="w-96 h-96">
+        </div>
+              
+        </div>
+   
+  </section>
+  
+
+    <!-- Features section -->
+    <section class="container mx-auto lg:px-16 py-12">
+        <div class="container mx-auto flex flex-wrap justify-center">
+            <!-- Feature 1 -->
+            <div class="w-full sm:w-1/2 md:w-1/3 p-4 justify-center">
+                <div class="bg-white rounded-lg p-6 shadow border hover:border-blue-500 hover:shadow-2xl">
+                   
+                    <h3 class="text-xl font-semibold text-gray-800">Discover Communities</h3>
+                    <p class="text-gray-600 mt-2 font-sans ">Explore a wide range of communities tailored to your interests.</p>
+                </div>
+            </div>
+    
+            <!-- Feature 2 -->
+            <div class="w-full sm:w-1/2 md:w-1/3 p-4">
+                <div class="bg-white rounded-lg p-6 shadow border hover:border-blue-500 hover:shadow-2xl">
+                    <h3 class="text-xl font-semibold text-gray-800">Share Your Passion</h3>
+                    <p class="text-gray-600 mt-2">Share your thoughts, expertise, and passions with like-minded individuals.</p>
+                </div>
+            </div>
+    
+            <!-- Feature 3 -->
+            <div class="w-full sm:w-1/2 md:w-1/3 p-4">
+                <div class="bg-white rounded-lg p-6 shadow border hover:border-blue-500 hover:shadow-2xl">
+                    <h3 class="text-xl font-semibold text-gray-800">Build Connections</h3>
+                    <p class="text-gray-600 mt-2">Connect with others, build meaningful relationships, and collaborate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Explore Communities section -->
+    <section class="bg-blue-100 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-red-900">Explore Our Communities</h2>
+            <p class="text-lg text-gray-600 mt-4">Find communities that match your interests and passions.</p>
+            <a href="/communities" class="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full">Explore Communities</a>
+        </div>
+    </section>
+
+    <!-- Member Testimonials section -->
+    <section class="py-12 lg:px-20 md:px-5 p-5">
+        <div class="container mx-auto text-center px-10">
+            <h2 class="text-3xl font-semibold text-gray-800">What Our Members Say</h2>
+            <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 py-3">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-6 rounded-lg border border-slate-100 shadow-md">
+                    <p class="text-gray-600">"I've met amazing people in this community and learned so much. It's been a fantastic experience!"</p>
+                    <p class="text-gray-800 mt-4 font-semibold">John Doe</p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-6 rounded-lg border border-slate-100 shadow-md">
+                    <p class="text-gray-600">"This app has brought me closer to my passions and allowed me to connect with like-minded individuals."</p>
+                    <p class="text-gray-800 mt-4 font-semibold">Jane Smith</p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-6 rounded-lg border border-slate-100 shadow-md">
+                    <p class="text-gray-600">"I've never been part of such a supportive community. It's been a game-changer for me!"</p>
+                    <p class="text-gray-800 mt-4 font-semibold">Alice Johnson</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA section -->
+    <section class="container mx-auto px-16 bg-gray-100 py-16 ">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold text-gray-800">Join Our Community Today!</h2>
+            <p class="text-lg text-gray-600 mt-4">Don't miss out on the opportunity to connect with others and share your passions.</p>
+            <a href="/signup" class="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-full">Sign Up Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 Community App. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+
+</body>
+</html>
