@@ -7,6 +7,7 @@
     <link href="../dist/output.css" rel="stylesheet">
     <link rel="icon" href="../asset/favicon.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <title>VoilaCode</title>
     <style>
         
@@ -39,63 +40,62 @@
 <body>
 
     <header>
-    <nav class="w-full bg-blue-600 border-b-2 ">
-        <div class="flex items-center justify-between max-w-screen-xl p-4 mx-auto">
-            <a href="./index.html" class="flex items-center">
-                <img src="../asset/icon.jpg" class="h-10 w-10 mr-3 rounded-full" alt="VoilaCode Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white">VoilaCode</span>
-            </a>
-            <button data-collapse-toggle="navbar-default" type="button" class="md:hidden focus:outline-none" onclick="toggleMobileDropdown()">
-                <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
-            </button>
-            <ul class="hidden md:flex space-x-6 text-white" id="navbar-default">
-                <li class="relative group">
-                    <a href="./index.html" class="py-3 pl-3 pr-4 text-white">Home</a>
-                </li>
-                <li class="relative group">
-                    <a href="./About.html" class="py-3 pl-3 pr-4 text-white">About</a>
-                </li>
-                <li class="relative group group-hover:cursor-pointer">
-                    <span class="py-3 pl-3 pr-4 text-white cursor-pointer">Services</span>
-                    <div class="absolute hidden mt-2 space-y-2 text-white bg-blue-800 border border-blue-900 rounded-md group-hover:block">
-                        <a href="./webdev.html" class="block px-4 py-2">Web_Development</a>
-                        <a href="./mobdev.html" class="block px-4 py-2">Mobile_Development</a>
-                    </div>
-                </li>
-                <li class="relative group group-hover:cursor-pointer">
-                    <span class="py-3 pl-3 pr-4 text-white cursor-pointer">Products</span>
-                    <div class="absolute hidden mt-2 space-y-2 text-white bg-blue-800 border border-blue-900 rounded-md group-hover:block">
-                        <a href="#" class="block px-4 py-2">Community_App</a>
-                        <a href="#" class="block px-4 py-2">Recruitment_App</a>
-                        <a href="#" class="block px-4 py-2">Website_App</a>
-                        <a href="./learningapp.html" class="block px-4 py-2">Learning_App</a>
-                    </div>
-                </li>
-                <li class="relative group">
-                    <a href="./Contact.html" class="py-3 pl-3 pr-4 text-white">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <nav class="w-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 border-b-2">
+            <div class="flex items-center justify-between max-w-screen-xl p-4 mx-auto">
+                <a href="./index.html" class="flex items-center">
+                    <img src="../asset/icon.jpg" class="h-10 w-10 mr-3 rounded-full" alt="VoilaCode Logo" />
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white">VoilaCode</span>
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button" class="md:hidden focus:outline-none" onclick="toggleMobileDropdown()">
+                    <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <ul class="hidden md:flex space-x-6 text-white" id="navbar-default">
+                    <li class="relative group">
+                        <a href="./index.html" class="py-3 pl-3 pr-4 text-white">Home</a>
+                    </li>
+                    <li class="relative group">
+                        <a href="./About.html" class="py-3 pl-3 pr-4 text-white">About</a>
+                    </li>
+                    <li class="relative group group-hover:cursor-pointer">
+                        <span class="py-3 pl-3 pr-4 text-white cursor-pointer">Services</span>
+                        <div class="absolute hidden mt-2 space-y-2 text-white bg-blue-800 border border-blue-900 rounded-md group-hover:block">
+                            <a href="./webdev.html" class="block px-4 py-2">Web_Development</a>
+                            <a href="./mobdev.html" class="block px-4 py-2">Mobile_Development</a>
+                        </div>
+                    </li>
+                    <li class="relative group group-hover:cursor-pointer">
+                        <span class="py-3 pl-3 pr-4 text-white cursor-pointer">Products</span>
+                        <div class="absolute hidden mt-2 space-y-2 text-white bg-blue-800 border border-blue-900 rounded-md group-hover:block">
+                            <a href="#" class="block px-4 py-2">Community_App</a>
+                            <a href="#" class="block px-4 py-2">Recruitment_App</a>
+                            <a href="#" class="block px-4 py-2">Website_App</a>
+                            <a href="./learningapp.html" class="block px-4 py-2">Learning_App</a>
+                        </div>
+                    </li>
+                    <li class="relative group">
+                        <a href="./Contact.html" class="py-3 pl-3 pr-4 text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-    
     
     
     <!-- Digital Journey -->
     <section class="w-full sm:px-16 animated">
         <div class="max-w-screen-xl px-4 py-8 mx-auto flex flex-col-reverse items-center justify-center text-justify lg:flex-row">
-            <div class="w-full lg:w-1/2">
-                <img src="../asset/iik.jpg" alt="Digital Journey Image" class="mx-auto lg:mx-0">
-            </div>
-            <div class="w-full lg:w-1/2 lg:pl-8 mt-8 lg:mt-0">
-                <h2 class="mb-4 text-4xl font-bold text-black animate-pulse">Embark on Your Digital Adventure</h2>
-                <p class="mt-4 text-black leading-relaxed">
-                    Welcome to VoilaCode, where we don't just code; we craft digital experiences. Our collaborative and innovative approach ensures that your journey in the digital realm is nothing short of extraordinary. Let's transform your ideas into digital reality.
-                </p>
-                <button class="px-6 py-3 mt-8 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out transform hover:scale-105">Start Your Adventure</button>
-            </div>
+          <div class="w-full lg:w-1/2">
+            <img src="../asset/iik.jpg" alt="Digital Journey Image" class="mx-auto lg:mx-0">
+          </div>
+          <div class="w-full lg:w-1/2 lg:pl-8 mt-8 lg:mt-0">
+            <h2 class="mb-4 text-4xl font-bold text-black" id="typed-output"></h2>
+            <p class="mt-4 text-black leading-relaxed">
+              Welcome to VoilaCode, where we don't just code; we craft digital experiences. Our collaborative and innovative approach ensures that your journey in the digital realm is nothing short of extraordinary. Let's transform your ideas into digital reality.
+            </p>
+            <button class="px-6 py-3 mt-8 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out transform hover:scale-105">Start Your Adventure</button>
+          </div>
         </div>
     </section>
     
@@ -127,49 +127,48 @@
     
 
     <!-- Products Section -->
-<section class="w-full bg-gradient-to-r from-sky-100 via-blue-200 to-indigo-300 sm:px-16 animated">
-    <div class="max-w-screen-xl px-4 py-12 mx-auto text-center">
-        <h2 class="mb-8 text-4xl font-semibold text-gray-800">Explore Our Innovative Products</h2>
-        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-            <!-- Community App Card -->
-            <div class="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
-                🌐
-                <h3 class="mb-2 text-2xl font-semibold text-gray-800">Community App</h3>
-                <p class="text-gray-600">Connect and collaborate with your community using our innovative Community App. Share ideas, events, and more!</p>
-                <button class="px-4 py-2 mt-4 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">View Details</button>
-            </div>
+    <section class="w-full bg-gradient-to-r from-sky-100 via-blue-200 to-indigo-300 sm:px-16 animated">
+        <div class="max-w-screen-xl px-4 py-12 mx-auto text-center">
+            <h2 class="mb-8 text-4xl font-semibold text-gray-800">Explore Our Innovative Products</h2>
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+                <!-- Community App Card -->
+                <div class="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    🌐
+                    <h3 class="mb-2 text-2xl font-semibold text-gray-800">Community App</h3>
+                    <p class="text-gray-600">Connect and collaborate with your community using our innovative Community App. Share ideas, events, and more!</p>
+                    <button class="px-4 py-2 mt-4 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">View Details</button>
+                </div>
 
-            <!-- Recruitment App Card -->
-            <div class="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
-                🎯
-                <h3 class="mb-2 text-2xl font-semibold text-gray-800">Recruitment App</h3>
-                <p class="text-gray-600">Streamline your recruitment process with our advanced Recruitment App. Find the best candidates efficiently.</p>
-                <button class="px-4 py-2 mt-4 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">View Details</button>
-            </div>
+                <!-- Recruitment App Card -->
+                <div class="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    🎯
+                    <h3 class="mb-2 text-2xl font-semibold text-gray-800">Recruitment App</h3>
+                    <p class="text-gray-600">Streamline your recruitment process with our advanced Recruitment App. Find the best candidates efficiently.</p>
+                    <button class="px-4 py-2 mt-4 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">View Details</button>
+                </div>
 
-            <!-- Web App Card -->
-            <div class="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
-                ⚙️
-                <h3 class="mb-2 text-2xl font-semibold text-gray-800">Web App</h3>
-                <p class="text-gray-600">Build your online presence with our versatile Web App solutions. Create stunning websites tailored to your needs.</p>
-                <button class="px-4 py-2 mt-4 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">View Details</button>
-            </div>
+                <!-- Web App Card -->
+                <div class="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    ⚙️
+                    <h3 class="mb-2 text-2xl font-semibold text-gray-800">Web App</h3>
+                    <p class="text-gray-600">Build your online presence with our versatile Web App solutions. Create stunning websites tailored to your needs.</p>
+                    <button class="px-4 py-2 mt-4 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">View Details</button>
+                </div>
 
-            <!-- Learning App Card -->
-            <div class="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
-                📚 
-                <h3 class="mb-2 text-2xl font-semibold text-gray-800">Learning App</h3>
-                <p class="text-gray-600">Embark on a journey of knowledge with our Learning App. Explore a wide range of courses and expand your horizons.</p>
-                <button class="px-4 py-2 mt-4 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">View Details</button>
+                <!-- Learning App Card -->
+                <div class="p-6 bg-white rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    📚 
+                    <h3 class="mb-2 text-2xl font-semibold text-gray-800">Learning App</h3>
+                    <p class="text-gray-600">Embark on a journey of knowledge with our Learning App. Explore a wide range of courses and expand your horizons.</p>
+                    <button class="px-4 py-2 mt-4 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">View Details</button>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
+    </section>
 
 
     <!-- Why Choose VoilaCode Services-->
-    <section class="w-full bg-gray-100 sm:px-8 animated">
+    <section class="w-full bg-white sm:px-8 animated">
         <div class="max-w-screen-xl px-4 py-12 mx-auto text-center">
             <h2 class="mb-8 text-4xl font-semibold">Why Choose VoilaCode Services</h2>
             <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -212,6 +211,35 @@
         </div>
     </section>
 
+
+    <!-- Testimonials Section -->
+    <section class="w-full sm:px-16 bg-gray-100 animated">
+        <div class="max-w-screen-xl px-4 py-12 mx-auto text-center">
+            <h2 class="text-4xl font-semibold mb-8">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    <img src="../asset/c1.jpg" alt="Client 1" class="w-16 h-16 object-cover mb-4 rounded-full mx-auto">
+                    <h3 class="text-xl font-semibold mb-2">John Doe</h3>
+                    <p class="text-gray-700 "><em>"VoilaCode transformed our digital presence. Their expertise and dedication exceeded our expectations."</em></p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    <img src="../asset/c2.jpg" alt="Client 2" class="w-16 h-16 object-cover mb-4 rounded-full mx-auto">
+                    <h3 class="text-xl font-semibold mb-2">Jane Smith</h3>
+                    <p class="text-gray-700"><em>"Working with VoilaCode was a pleasure. They delivered high-quality solutions with a focus on user experience."</em></p>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    <img src="../asset/c3.jpg" alt="Client 3" class="w-16 h-16 object-cover mb-4 rounded-full mx-auto">
+                    <h3 class="text-xl font-semibold mb-2">David Johnson</h3>
+                    <p class="text-gray-700"><em>"VoilaCode's innovative approach and attention to detail set them apart. I highly recommend their services."</em></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Customized Solution Section -->
     <section class="w-full bg-gradient-to-r from-sky-100 to-blue-200 sm:px-8 animated">
         <div class="max-w-screen-xl px-4 py-12 mx-auto flex flex-col items-center justify-center text-center lg:flex-row">
@@ -220,10 +248,9 @@
                 <p class="text-gray-600">Our team is here to help you find the perfect solution tailored to your specific needs. Contact us to get started.</p>
             </div>
             <div class="flex justify-center w-full mt-8 lg:mt-0 lg:w-1/3">
-                <button class="px-6 py-3 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">Learn more</button>
+                <button class="px-6 py-3 mr-4 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">Learn more</button>
                 <button class="px-6 py-3 text-white bg-blue-500 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out">Talk to Us</button>
             </div>
-            
         </div>
     </section>
 
@@ -329,9 +356,16 @@
         </div>
     </footer>
 
-    
-    <!-- JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <!-- JavaScript -->
+    <script>
+        var typed = new Typed('#typed-output', {
+          strings: ["Embark on Your Digital Adventure"],
+          typeSpeed: 30, // Adjust the typing speed 
+          showCursor: false 
+        });
+    </script>
+    
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const animatedElements = document.querySelectorAll('.animated');
